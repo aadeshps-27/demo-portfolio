@@ -1,0 +1,117 @@
+*{
+    background-color: rgba(251, 255, 255, 0.432);
+   
+}
+.logo{
+    background-color: rgb(255, 153, 0);
+    height: 50px;
+
+  
+   
+    
+}
+.r1,.r2,.r3{
+    display:flex;
+    justify-content: center;
+
+}
+.r1 div{
+    border: 2px solid rgb(146, 146, 146);
+    width: 250px;
+    height: 420px;
+    margin: 16px;
+    border-radius: 20px;
+}
+.r2 div{
+    border: 2px solid  rgb(146, 146, 146);
+    width: 250px;
+    height: 450p2;
+    margin: 16px;
+    border-radius: 20px;
+
+}
+.r3 div{
+    border: 2px solid  rgb(146, 146, 146);;
+    width: 250px;
+    height: 300px;
+    margin: 16px;
+    border-radius: 20px;
+
+}
+img{
+
+   position: relative;
+   left: 28px;
+   top: 10px;
+   border-radius: 20px 20px 0px 0px;
+}
+.btn{
+    background-color: green;
+    color: aliceblue;
+position: relative;
+left: 100px;
+}
+.l1{
+    position: relative;
+    left: 10px;
+}
+.pre{
+font-size: 15px;
+}
+.rate{
+    position: relative;
+    left: 20px;
+}
+button{
+   position: relative;
+   left: 120px;
+   background-color: rgb(189, 24, 79);
+   color: aliceblue;
+}
+.pre1{
+    font-size: 14px;
+    }
+    .l2{
+        position: relative;
+        left: 10px;
+    }
+    .btn3{
+        background-color: green;
+        color: aliceblue;
+    position: relative;
+    left: 80px;
+    }
+    .btn2{
+        background-color: green;
+        color: aliceblue;
+    position: relative;
+    left: 47px;
+    }
+    .btn4{
+        background-color: green;
+        color: aliceblue;
+    position: relative;
+    left: 90px;
+    }
+    .btn5{
+        background-color: green;
+        color: aliceblue;
+    position: relative;
+    left: 70px;
+    }
+    .order{
+        width: 100px;
+        position: relative;
+        left: 70px;
+        border-radius: 20px;
+    }
+    .order:hover{
+        background-color: bisque;
+        color: rgb(215, 20, 233);
+        border: 3px solid  rgb(238, 8, 181);;
+    }
+    .logoc{
+        position: relative;
+        top: -1px;
+        width: 200px;
+    }

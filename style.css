@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bayon', sans-serif;
+    color: white;
+   
+    
+}
+
+nav{
+    
+    
+    background-color:rgb(0, 0, 0);
+   width: 180px;
+    height: 660px;
+    position: sticky;
+    top: 0%;
+    bottom: 0%;
+    border: 2px solid rgb(255, 16, 135);
+    box-shadow: 2px -10px rgb(15, 239, 255);
+    overflow-y: hidden;
+    
+    
+}
+
+.navbar{
+    position: relative;
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+flex-direction: column;
+position: sticky;
+top: 0%;
+}
+.navbar ul{
+    position: absolute;
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+flex-direction: column;
+position: relative;
+left: 50px;
+gap: 30px;
+position: sticky;
+top: 0%;
+
+}
+.navbar ul li{
+   display: flex;
+    list-style: none;
+    color: aliceblue;
+    font-size: 20px;
+    text-transform: capitalize;
+    position: relative;
+    top: -140px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    position: relative;
+    display: flex;
+top: -20px;
+left: -15px;
+    color: aliceblue;
+    
+
+}
+.logo{
+    position: absolute;
+    left: 5px;
+
+}
+.intro{
+    position: absolute;
+    top:100px;
+    left: 300px;
+    justify-content: center;
+}
+.aad{
+    font-size: 80px;
+    letter-spacing: 1px;
+    color: aliceblue;
+    
+}
+strong{
+    font-size: 90px;
+    color: rgb(255, 15, 115);
+    text-shadow: -5px -1px cyan;
+   
+}
+.rest{
+    background-color:black;
+    overflow-x: hidden;
+}
+.w-50{
+    margin-top: 30px;
+}
+.myself{
+    position: absolute;
+    left: 210px;
+    color: aqua;
+    font-size: 70px;
+    transition: .5s;
+   
+
+}
+.myself:hover{
+    color: rgb(255, 15, 115);
+    text-shadow: -5px -1px cyan;
+}
+.well{
+    position: relative;
+   
+    left: 100px;
+    
+ 
+    font-size: 20px;
+   
+}
+
+.red{
+  
+  
+}
+.pro{
+    position: relative;
+    
+    left: 200px;
+    z-index: -1;
+    font-size: 20px;
+    text-align: justify;
+}
+.card{
+    position: relative;
+    top: 100px;
+}
+.head{
+    transition: .6s;
+}
+.head:hover{
+ color: aqua;
+}
+.form{
+    width: 300px;
+    height: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border: 2px solid white;
+}
+.form1{
+    width: 620px;
+    height: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border: 2px solid white;
+}
+.texter{
+ 
+width: 620px;
+position: relative;
+left: 10px;
+color: rgb(255, 255, 255);
+background: transparent;
+border: 2px solid white;
+
+
+
+}
+.buttc{
+    color: rgb(255, 255, 255);
+    width: 300px;
+    height: 60px;
+    margin: 10px;
+    margin-left: 330px;
+    background: transparent;
+    transition: .17s;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.buttc:hover{
+
+background:linear-gradient(to right, cyan ,rgb(221, 23, 99));
+box-shadow: inset 2px 3px 5px black;
+text-shadow: 2px 3px 4px black;
+}
+::selection{
+background-color:rgb(221, 23, 99) ;
+color: white;
+}
+.row123{
+    border: 4px solid rgb(221, 23, 99);
+    cursor: pointer;
+    transition:  .5s;
+    filter: brightness(0.25);
+    
+}
+.row123:hover{
+
+box-shadow:-5px -6px cyan ;
+transform:translateY(-10px);
+filter: brightness(100%);
+}
+.loc{
+   box-shadow: 2px -3px cyan;
+}
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+background-color: gray;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 30px;
+    background-color:rgb(221, 23, 99);
+    inset: 2px 3px 5px black;
+    border: 2px solid cyan;
+    
+
+}

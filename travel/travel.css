@@ -1,0 +1,218 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    
+   
+   
+}
+.logo{
+    filter: invert(100%);
+}
+ul{
+    display: flex;
+    gap: 40px;
+}
+li{
+   list-style: none;
+   margin-top: 10px;
+   text-transform: capitalize;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 1000;
+   color: rgb(255, 255, 255);
+   
+}
+.text-light{
+    transition: .6s;
+    
+}
+.text-light:hover{
+    background-color: blue;
+    color: black;
+
+}
+
+.yes{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 160px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+.tbody{
+   
+    background: url(https://www.wallpapers13.com/wp-content/uploads/2016/05/Beautiful-scenery-Nature-Landscape-from-Norway-HD-Wallpaper2880x1800-1600x1200.jpg);
+background-size: 100% 730px;
+background-repeat: no-repeat;
+overflow-x: hidden;
+
+
+}
+.foot{
+    font-size: 40px;
+   
+}
+.brmore{
+    text-align: justify;
+}
+.awards{
+    margin-top: 20px;
+    color: black;
+}
+.winter{
+    margin-top: 80px;
+    
+}
+.grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    transition: .6s;
+   
+}
+.cards{
+    display: flex;
+    border: 1px solid black;
+    align-content: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 50px;
+    transition: .6s;
+    border-radius: 30px;
+    box-shadow:  2px 3px 5px black;
+}
+.cards:hover{
+   
+   transform:translateY(-20px)
+}
+.imc:hover{
+    border-radius: 30px;
+    filter: grayscale(30%);
+    border-radius: 30px;
+    
+}
+.imc{
+    transition: .5s;
+    border-radius: 30px;
+}
+.col{
+position: relative;
+
+color: rgb(5, 5, 5);
+}
+.places{
+    position: relative;
+    left: 7px;
+    margin-top: 50px;
+    text-transform: uppercase;
+   cursor: pointer;
+    font-size: 20px;
+    color: blue;
+}
+.card2{
+
+    
+    padding-left: 60px;
+}
+.card3{
+   display: inline-block;
+    border: 1px solid black;
+   margin: 10px;
+   transition: .8s;
+   border-radius: 60px 0px 20px 0px;
+   box-shadow: 2px 3px 5px black;
+    
+}
+.card3:hover{
+    -webkit-transform: perspective(500px) rotateY(20deg);
+}
+.italy{
+    border-radius: 60px 0px 20px 0px;
+}
+.britan{
+    text-transform: uppercase;
+}
+
+.mask{
+    display: flex;
+    gap: 6px;
+  justify-content: center;
+  align-items: center;
+    margin-top: 40px;
+ 
+    
+}
+.mask4{
+    margin-left: 0px;
+    border: none;
+    box-shadow: 2px 3px 6px black;
+    transition: all .6s;
+}
+.mask4:hover{
+    transform: translateY(-30px);
+    cursor: pointer;
+}
+.pos{
+    position: relative;
+    left: -20px;
+}
+.wild{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+.p-5{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 200px;
+}
+ul{
+    display: flex;
+}
+.redx{
+    position: relative;
+    left: -400px;
+    top: 30px;
+}
+.under{
+    
+}
+.jio{
+    text-decoration: none;
+    transition: .6s;
+}
+.jio:hover{
+    color: red;
+}
+.master{
+    text-decoration: none;
+    transition: .6s;
+    color: aliceblue;
+}
+.master:hover{
+    text-shadow: 2px 3px 5px black;
+}
+.top1{
+    position: relative;
+    left: -30px;
+}
+.col-2 {
+    position: relative;
+    left: -100px;
+}
+.col-4 {
+    position: relative;
+    left: -100px;
+}

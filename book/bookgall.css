@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+}
+.divider1{
+    background-color: rgb(255, 251, 0);
+    height: 90px;
+    box-shadow: 2px 3px 6px black;
+    color: blue;
+    font-family: 'Teko', sans-serif;
+    overflow: hidden;
+   
+
+    
+}
+li{
+    display: inline;
+    padding: 4px;
+    position: relative;
+ left: 700px;
+ top: -2px;
+ font-family: 'Bangers', cursive;
+
+}
+.store{
+    position: relative;
+    top: -10px;
+}
+H1{
+    position: relative;
+    top:46px;
+    font-size: 40px;
+    left: 70px;
+}
+.BOOK{
+    position: relative;
+    top: -25px;
+    left: 140px;
+}
+.divider2{
+    background-color:  rgb(255, 251, 0);
+    height: 45px;
+ 
+}
+.ser{
+    position: relative;
+    left: 590px;
+    height: 30px;
+    top: -35px;
+    width: 700px;
+   
+    border-radius: 10px;
+}
+
+.divider3{
+    background-color: rgba(127, 255, 212, 0);
+    color: rgb(226, 43, 128);
+    font-size: large;
+    height: 40px;
+}
+.special{
+    position: relative;
+    top: -20px;
+    left: 434px;
+    padding: 20px;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+a{
+    text-decoration: none;
+}
+body{
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.main div{
+    border: 8px ;
+    width: 1750px;
+    height: 400px;
+    margin: 8px;
+    overflow: hidden;
+    margin-left: 20px;
+    border-radius: 30px 12px 30px 12px;
+    border-style: groove;
+}
+img{
+    margin-left: 200px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+h3{
+    position: relative;
+    left: 500px;
+    top: -330px;
+    font-size: 30px;
+}
+h4{
+    position: relative;
+    left: 500px;
+    top: -330px;
+    font-size: 20px;
+}
+h5{
+    position: relative;
+    left: 500px;
+    top: -330px;
+    font-size: 20px;
+}
+button{
+    position: relative;
+    left: 500px;
+    top: -330px;
+    font-size: 20px;
+    width: 300px;
+    height: 100px;
+    border: 2px solid rgb(248, 248, 248);
+    font-family: 'Cinzel', serif;
+}
+del{
+    color: red;
+}
+.cart{
+    position: relative;
+    border-radius: 20px;
+   height: 40px;
+   left: -110px;
+   top:-200px;
+   background-color: rgb(255, 35, 71);
+   color: aliceblue;
+   font-family: 'Cinzel', serif;
+   
+}
+.cart1{
+    position: relative;
+    border-radius: 20px;
+   height: 40px;
+   left: -110px;
+   top:-200px;
+   background-color: rgb(245, 161, 50);
+   color: aliceblue;
+   font-family: 'Cinzel', serif;
+}
+.audio{
+    position: relative;
+    top: -130px;
+    left: -500px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 5px black;
+}
+img:hover{
+    box-shadow: 2px 3px 9px rgb(34, 30, 30);
+}
+.cart1:hover{
+    background-color: blue;
+    color: aliceblue;
+    box-shadow: 2px 3px 5px black;
+
+}
+.cart:hover{
+    background-color: rgb(42, 255, 202);
+    color: rgb(5, 52, 94);
+    box-shadow: 2px 3px 5px black;
+
+}
+a:hover{
+   color: rgb(255, 249, 249);
+   border: 2px solid royalblue;
+   font-weight: 30px;
+   background-color: blue;
+  box-shadow: 2px 3px 5px black;
+}
+.format:hover{
+    border: 3px solid rgb(255, 0, 0);
+    background-color: blue;
+    color: aliceblue;
+    box-shadow: 2px 3px 5px black;
+    text-shadow: 2px 3px 6px black;
+}
+h3{
+    font-family: 'Kaushan Script', cursive;
+}
+body{
+   
+   
+ background: url(https://free4kwallpapers.com/uploads/originals/2017/06/05/minimal-mountains-by-freshpie-wallpaper.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ backdrop-filter: blur(10px);
+
+
+}
+h2,h3,h4,h5{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 5px black;
+}
